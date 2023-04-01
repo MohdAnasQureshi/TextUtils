@@ -26,14 +26,14 @@ export default function Navbar(props) {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link className="nav-link highlight" aria-current="page" to="/textutils">
+              <a className="nav-link highlight" aria-current="page" href="/textutils">
                 Home
-              </Link>
+              </a>
             </li>
             <li className="nav-item">
-              <Link className="nav-link highlight" to="/about">
+              <a className="nav-link highlight" href="/about">
                 {props.about}
-              </Link>
+              </a>
             </li>
           </ul>
           <div

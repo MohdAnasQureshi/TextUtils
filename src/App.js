@@ -6,7 +6,7 @@ import { useState } from "react";
 import Alert from "./components/Alert";
 import React from "react";
 // import ReactDOM from "react-dom/client";
-import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
+// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   const [mode, setmode] = useState("light");
@@ -44,31 +44,22 @@ function App() {
   };
   return (
     <>
-      <Router basename="/textutils">
-        <Navbar
-          title="Textutils"
-          about="About"
+      <Navbar
+        title="Textutils"
+        about="About"
+        mode={mode}
+        togglemode={togglemode}
+      />
+      <Alert alert={alert} />
+      <div className="container my-3">
+        <TextForm
+          showalert={showalert}
+          heading="Try TextUtils - Word Counter, Character Counter, Remove Extra Spaces, Convert to Uppercase and Lowercase "
           mode={mode}
-          togglemode={togglemode}
-        />
-        <Alert alert={alert} />
-        <div className="container my-3">
-          <Routes>
-            <Route
-             exact path="/textutils"
-              element={
-                <TextForm
-                  showalert={showalert}
-                  heading="Try TextUtils - Word Counter, Character Counter, Remove Extra Spaces, Convert to Uppercase and Lowercase "
-                  mode={mode}
-                ></TextForm>
-              }
-            />
+        /> 
 
-            <Route exact path="/about"   element={<About mode={mode} />}/>
-          </Routes>
-        </div>
-      </Router>
+        <About mode={mode} />
+       </div>
     </>
   );
 }
