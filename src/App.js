@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar";
 import TextForm from "./components/TextForm";
-import About from "./components/About";
+// import About from "./components/About";
 import "./App.css";
 import { useState } from "react";
 import Alert from "./components/Alert";
@@ -57,8 +57,6 @@ function App() {
           heading="Try TextUtils - Word Counter, Character Counter, Remove Extra Spaces, Convert to Uppercase and Lowercase "
           mode={mode}
         /> 
-
-        <About mode={mode} />
        </div>
     </>
   );

@@ -9,7 +9,7 @@ export default function Navbar(props) {
       style={{ background: props.mode === "light" ? "#f1f3f4" : "black" }}
     >
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand" href="/">
           {props.title}
         </a>
         <button
@@ -30,11 +30,7 @@ export default function Navbar(props) {
                 Home
               </a>
             </li>
-            <li className="nav-item">
-              <a className="nav-link highlight" href="#">
-                {props.about}
-              </a>
-            </li>
+            
           </ul>
           <div
             className={`form-check form-switch text-${
