@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/MohdAnasQureshi/textutils/static/css/main.56bd7a77.css",
-    "main.js": "/MohdAnasQureshi/textutils/static/js/main.de1e5576.js",
-    "static/js/787.719ec76d.chunk.js": "/MohdAnasQureshi/textutils/static/js/787.719ec76d.chunk.js",
-    "index.html": "/MohdAnasQureshi/textutils/index.html",
-    "main.56bd7a77.css.map": "/MohdAnasQureshi/textutils/static/css/main.56bd7a77.css.map",
-    "main.de1e5576.js.map": "/MohdAnasQureshi/textutils/static/js/main.de1e5576.js.map",
-    "787.719ec76d.chunk.js.map": "/MohdAnasQureshi/textutils/static/js/787.719ec76d.chunk.js.map"
+    "main.css": "/mohdanasqureshi/textutils/static/css/main.56bd7a77.css",
+    "main.js": "/mohdanasqureshi/textutils/static/js/main.3c3d8b2c.js",
+    "static/js/787.719ec76d.chunk.js": "/mohdanasqureshi/textutils/static/js/787.719ec76d.chunk.js",
+    "index.html": "/mohdanasqureshi/textutils/index.html",
+    "main.56bd7a77.css.map": "/mohdanasqureshi/textutils/static/css/main.56bd7a77.css.map",
+    "main.3c3d8b2c.js.map": "/mohdanasqureshi/textutils/static/js/main.3c3d8b2c.js.map",
+    "787.719ec76d.chunk.js.map": "/mohdanasqureshi/textutils/static/js/787.719ec76d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.56bd7a77.css",
-    "static/js/main.de1e5576.js"
+    "static/js/main.3c3d8b2c.js"
   ]
 }
