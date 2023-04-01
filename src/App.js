@@ -21,7 +21,7 @@ function App() {
 
     setTimeout(() => {
       setalert(null);
-    }, 1000);
+    }, 1500);
   };
   const togglemode = () => {
     if (mode === "light") {
