@@ -192,7 +192,7 @@ export default function TextForm(props) {
         <div className="container" style={{border: props.mode==='dark'?'2px solid white':'2px solid #dee2e6',borderRadius:'5px'}}>
         <h2 className="my-4">Preview</h2>
 
-        <p>{Text.length > 0 ? Text : "Nothing to preview preview !!"}</p></div>
+        <p>{Text.length > 0 ? Text : "Nothing to preview!!"}</p></div>
       </div>
     </>
   );
