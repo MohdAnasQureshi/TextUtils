@@ -44,7 +44,7 @@ function App() {
   };
   return (
     <>
-      <Router>
+      <Router basename="/textutils">
         <Navbar
           title="Textutils"
           about="About"
@@ -55,7 +55,7 @@ function App() {
         <div className="container my-3">
           <Routes>
             <Route
-             exact path="/"
+             exact path="/textutils"
               element={
                 <TextForm
                   showalert={showalert}

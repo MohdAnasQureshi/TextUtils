@@ -9,7 +9,7 @@ export default function Navbar(props) {
       style={{ background: props.mode === "light" ? "#f1f3f4" : "black" }}
     >
       <div className="container-fluid">
-        <Link className="navbar-brand" to="/">
+        <Link className="navbar-brand" to="/textutils">
           {props.title}
         </Link>
         <button
@@ -26,7 +26,7 @@ export default function Navbar(props) {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link className="nav-link highlight" aria-current="page" to="/">
+              <Link className="nav-link highlight" aria-current="page" to="/textutils">
                 Home
               </Link>
             </li>
