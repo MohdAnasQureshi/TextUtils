@@ -1,6 +1,6 @@
 {
-  "name": "textutils2",
-  "homepage": "https://github.com/MohdAnasQureshi/textutils2",
+  "name": "textutils",
+  "homepage": "https://github.com/MohdAnasQureshi/textutils",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
